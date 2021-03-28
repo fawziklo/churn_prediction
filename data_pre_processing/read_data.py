@@ -1,6 +1,4 @@
-import numpy as np
 import pandas as pd
-from sklearn.preprocessing import StandardScaler
 
 pd.set_option('expand_frame_repr', False)
 

@@ -2,7 +2,7 @@ import numpy as np
 from sklearn.model_selection import train_test_split
 import pandas as pd
 
-from data_pre_processing.read_data import encode_to_numerical_data
+from data_pre_processing.prep_process_data import encode_to_numerical_data
 
 
 def create_xmatrix_ylabels(raw_data: pd.DataFrame):

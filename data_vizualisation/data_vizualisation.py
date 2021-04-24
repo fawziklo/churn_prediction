@@ -2,7 +2,7 @@ import seaborn as sns
 from matplotlib import pyplot as plt
 import pandas as pd
 
-from data_pre_processing.read_data import encode_to_numerical_data
+from data_pre_processing.prep_process_data import encode_to_numerical_data
 
 
 def bar_plots(raw_data: pd.DataFrame):

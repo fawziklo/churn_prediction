@@ -4,7 +4,7 @@ from sklearn.preprocessing import StandardScaler
 
 from data_ml_models.grid_search_models import calculate_best_clf
 from data_partition.data_partition import create_xmatrix_ylabels, create_train_test_sets
-from data_pre_processing.read_data import read_data, display_data_info
+from data_pre_processing.prep_process_data import read_data, display_data_info
 from data_vizualisation.data_vizualisation import bar_plots, heatmap_plot, count_plots
 from model_evaluation.model_evaluation import best_model_evaluation
 

@@ -8,7 +8,7 @@ def read_data(path: str):
 
 
 def display_data_info(data: pd.DataFrame):
-    print(data.head(5))
+    print(data.head(50))
     print("\n")
     print(data.info())
     print("\n")
